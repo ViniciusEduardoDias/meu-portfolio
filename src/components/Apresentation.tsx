@@ -6,12 +6,11 @@ function Apresentation() {
   return (
     <section
       id="inicio"
-      className="h-screem flex flex-wrap gap-10 items-center justify-center text-white"
+      className="min-h-screen p-4 flex flex-col flex-wrap sm:flex-row gap-2 md:gap-10 items-center justify-center text-white"
     >
-      <div className="flex flex-col gap-4 items-center">
-        <h2 className="text-2xl">
-          Olá, é um prazer te receber aqui! Meu nome é
-        </h2>
+      <div className="flex flex-col gap-6 items-center">
+        <h2 className="text-2xl">Olá, é um prazer te receber aqui!</h2>
+        <h2 className="text-2xl">Meu nome é</h2>
         <h1 className="text-3xl sm:text-5xl font-bold">VINÍCIUS DIAS</h1>
         <h2 className="text-xl text-lime-400 font-bold">e sou Dev Front-End</h2>
         <div className="flex flex-wrap gap-2">
@@ -38,9 +37,9 @@ function Apresentation() {
         <Image
           src="/persondev.png"
           alt="Descrição da imagem"
-          width={400}
-          height={250}
-          className="rounded-md object-cover"
+          width={600}
+          height={600}
+          className="mb-24 sm:mb-0 rounded-md object-contain max-h-[80vh]"
         />
       </div>
     </section>

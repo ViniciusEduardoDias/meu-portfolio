@@ -1,6 +1,12 @@
-import Header from "@/components/Header";
-import Container from "@/components/Container";
-import Apresentation from "@/components/Apresentation";
+import {
+  Header,
+  Container,
+  Apresentation,
+  About,
+  Footer,
+  Projects,
+  Contact,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,7 +14,11 @@ export default function Home() {
       <Header />
       <Container>
         <Apresentation />
+        <About />
+        <Projects />
+        <Contact />
       </Container>
+      <Footer />
     </>
   );
 }
