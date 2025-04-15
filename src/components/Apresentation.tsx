@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Button from "./Button";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Apresentation() {
   return (
@@ -13,24 +13,23 @@ function Apresentation() {
         <h2 className="text-2xl">Meu nome é</h2>
         <h1 className="text-3xl sm:text-5xl font-bold">VINÍCIUS DIAS</h1>
         <h2 className="text-xl text-lime-400 font-bold">e sou Dev Front-End</h2>
-        <div className="flex flex-wrap gap-2">
-          <Button
-            text=""
-            image="/github.png"
-            onclick={() =>
-              window.open("https://github.com/ViniciusEduardoDias", "_blank")
-            }
-          />
-          <Button
-            text=""
-            image="/linkedin.png"
-            onclick={() =>
-              window.open(
-                "https://www.linkedin.com/in/vinicius-ed-dias/",
-                "_blank"
-              )
-            }
-          />
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="https://www.linkedin.com/in/vinicius-ed-dias/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-lime-300 text-black text-xl hover:scale-110 transition"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vinicius-ed-dias/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-800 text-white text-xl hover:scale-110 transition"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
       <div>

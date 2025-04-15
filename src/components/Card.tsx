@@ -18,7 +18,7 @@ function Card({ image, nameProject, link }: CardProps) {
     <div className="flex flex-col h-full overflow-hidden bg-white rounded-lg hover:-translate-y-1 transform transition-all duration-300 ease-in-out hover:scale-110">
       <div className="aspect-video w-full">
         <Image
-          src={imgSrc}
+          src={imgSrc || "/placeholder.svg"}
           onError={() => setImgSrc("/placeholder.svg")}
           className="w-full h-full object-cover"
           alt={`screenshot do projeto ${nameProject}`}
