@@ -10,12 +10,12 @@ const Header = () => {
       >
         <Image
           src="/logo.svg"
-          width={60}
-          height={60}
+          width={40}
+          height={40}
           alt="logo do projeto"
           priority
           unoptimized
-          className="w-20 h-20"
+          className="w-16 h-16"
         />
       </div>
 
