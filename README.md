@@ -1,4 +1,4 @@
-![Meu Portfólio](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/projects/meu-portfolio.jpg)
+![Meu Portfólio](./public/projects/meu-portfolio.jpg)
 
 # 🌐 Meu Portfólio Pessoal
 
