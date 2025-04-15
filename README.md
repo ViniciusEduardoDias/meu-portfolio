@@ -1,4 +1,4 @@
-![Meu Projeto](projects/meu-portfolio.jpg) ✅ CERTO
+!(projects/meu-portfolio.jpg)
 
 # 🌐 Meu Portfólio Pessoal
 
