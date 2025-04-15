@@ -8,7 +8,7 @@ function Apresentation() {
       id="inicio"
       className="my-8 md:my-0 md:min-h-screen p-4 flex flex-col flex-wrap sm:flex-row gap-2 sm:gap-10 items-center justify-center text-white"
     >
-      <div className="flex flex-col gap-4 items-center">
+      <div className="flex flex-col flex-wrap gap-4 items-center justify-center">
         <h2 className="text-2xl">Olá, é um prazer te receber aqui!</h2>
         <h2 className="text-2xl">Meu nome é</h2>
         <h1 className="text-3xl sm:text-5xl font-bold">VINÍCIUS DIAS</h1>

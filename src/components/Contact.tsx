@@ -1,7 +1,12 @@
 "use client";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaInstagram,
+  FaEnvelope,
+  FaLinkedin,
+} from "react-icons/fa";
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -77,15 +82,23 @@ export default function Contact() {
           href="https://instagram.com/vinicius_edias/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 text-white text-xl hover:scale-110 transition"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-800 text-white text-xl hover:scale-110 transition"
         >
           <FaInstagram />
         </a>
         <a
           href="mailto:diasvinicius0401@gmail.com"
-          className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-600 text-white text-xl hover:scale-110 transition"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-600 hover:bg-gray-800 text-white text-xl hover:scale-110 transition"
         >
           <FaEnvelope />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vinicius-ed-dias/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center rounded-full text-white text-xl bg-blue-600 hover:bg-blue-800 hover:scale-110 transition"
+        >
+          <FaLinkedin />
         </a>
       </div>
     </section>

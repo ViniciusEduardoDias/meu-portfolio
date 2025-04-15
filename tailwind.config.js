@@ -14,7 +14,8 @@ module.exports = {
         lightning: "lightning 1s infinite",
       },
       boxShadow: {
-        glow: "0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4)", // Para brilho ao redor do raio
+        glow: "0 0 15px #a3e635, 0 0 30px #a3e635",
+        neon: "0 0 10px #a3e635, 0 0 20px #a3e635, 0 0 30px #a3e635",
       },
       keyframes: {
         glow: {
@@ -22,7 +23,7 @@ module.exports = {
             boxShadow: "0 0 10px #a3e635, 0 0 30px #a3e635",
           },
           "50%": {
-            boxShadow: "0 0 20px #1e3a8a, 0 0 40px #1e3a8a",
+            boxShadow: "0 0 20px #a3e635, 0 0 40px #a3e635",
           },
         },
         textGlow: {
@@ -30,7 +31,7 @@ module.exports = {
             textShadow: "0 0 5px #a3e635, 0 0 10px #a3e635",
           },
           "50%": {
-            textShadow: "0 0 10px #1e3a8a, 0 0 20px #1e3a8a",
+            textShadow: "0 0 10px #a3e635, 0 0 20px #a3e635",
           },
         },
         lightning: {
@@ -50,6 +51,7 @@ module.exports = {
       },
     },
   },
+  safelist: ["shadow-neon"],
   plugins: [
     function ({ addUtilities }) {
       addUtilities({
