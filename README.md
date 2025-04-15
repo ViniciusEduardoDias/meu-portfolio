@@ -1,4 +1,4 @@
-!(projects/meu-portfolio.jpg)
+![Meu Portfólio](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/projects/meu-portfolio.jpg)
 
 # 🌐 Meu Portfólio Pessoal
 
@@ -57,13 +57,11 @@ npm run dev
 
 # Acesse em: http://localhost:3000
 
+```
 
 ## 📦 Deploy
 
 O projeto está hospedado na Vercel e pode ser acessado por:
 ➡️ https://meu-portfolio-blond-zeta.vercel.app/
 
-
-
 Projeto feito por Vinícius Dias
-```
