@@ -19,7 +19,10 @@ export default function Projects() {
   }, []);
 
   return (
-    <section id="projects" className="min-h-screen px-8 sm:px-4 py-10">
+    <section
+      id="projects"
+      className="my-8 md:my-0 md:min-h-screen px-8 sm:px-4 py-10"
+    >
       <div className="flex flex-col items-center mb-10">
         <h1 className="text-3xl text-white font-semibold">Projetos</h1>
       </div>

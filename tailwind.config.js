@@ -11,10 +11,10 @@ module.exports = {
       animation: {
         glow: "glow 4s ease-in-out infinite",
         textGlow: "textGlow 3s ease-in-out infinite",
+        lightning: "lightning 1s infinite",
       },
       boxShadow: {
-        neon: "0 4px 20px #a3e635", // verde-limão
-        navy: "0 4px 20px #1e3a8a", // azul-marinho
+        glow: "0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4)", // Para brilho ao redor do raio
       },
       keyframes: {
         glow: {
@@ -31,6 +31,20 @@ module.exports = {
           },
           "50%": {
             textShadow: "0 0 10px #1e3a8a, 0 0 20px #1e3a8a",
+          },
+        },
+        lightning: {
+          "0%": {
+            opacity: "0",
+            transform: "scale(1.5)",
+          },
+          "50%": {
+            opacity: "1",
+            transform: "scale(1.2)",
+          },
+          "100%": {
+            opacity: "0",
+            transform: "scale(1)",
           },
         },
       },

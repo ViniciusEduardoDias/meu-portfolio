@@ -6,16 +6,16 @@ function Apresentation() {
   return (
     <section
       id="inicio"
-      className="min-h-screen p-4 flex flex-col flex-wrap sm:flex-row gap-2 md:gap-10 items-center justify-center text-white"
+      className="my-8 md:my-0 md:min-h-screen p-4 flex flex-col flex-wrap sm:flex-row gap-2 sm:gap-10 items-center justify-center text-white"
     >
-      <div className="flex flex-col gap-6 items-center">
+      <div className="flex flex-col gap-4 items-center">
         <h2 className="text-2xl">Olá, é um prazer te receber aqui!</h2>
         <h2 className="text-2xl">Meu nome é</h2>
         <h1 className="text-3xl sm:text-5xl font-bold">VINÍCIUS DIAS</h1>
-        <h2 className="text-xl text-lime-400 font-bold">e sou Dev Front-End</h2>
+        <h2 className="text-xl text-lime-400 font-bold">Dev Front-End</h2>
         <div className="flex flex-wrap gap-3">
           <a
-            href="https://www.linkedin.com/in/vinicius-ed-dias/"
+            href="https://github.com/ViniciusEduardoDias"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-lime-400 hover:bg-lime-200 text-black text-xl hover:scale-110 transition"

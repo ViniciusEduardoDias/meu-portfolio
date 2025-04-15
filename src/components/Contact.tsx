@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col items-center justify-center gap-10 p-6"
+      className="my-8 md:my-0 md:min-h-screen flex flex-col items-center justify-center gap-10 p-6"
     >
       <h2 className="text-3xl font-semibold text-gray-100">Entre em Contato</h2>
 
@@ -64,9 +64,6 @@ export default function Contact() {
           Enviar
         </button>
       </form>
-
-      <p className="text-gray-100">Ou se preferir:</p>
-
       <div className="flex gap-6">
         <a
           href="https://wa.me/5519982467708"

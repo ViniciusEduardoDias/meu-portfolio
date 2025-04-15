@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col-reverse sm:flex-row sm:flex-wrap items-center justify-center gap-10 px-4 text-white"
+      className="my-8 md:my-0 md:min-h-screen flex flex-col-reverse sm:flex-row sm:flex-wrap items-center justify-center gap-10 px-4 text-white"
     >
       <div>
         <Image
