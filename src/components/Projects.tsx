@@ -28,7 +28,11 @@ export default function Projects() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
         {repos.map((repo) => {
-          const image = `/projects/${repo.name}.jpg`;
+          const image = `/projects/${repo.name.toLowerCase()}.jpg`.replace(
+            /\.(jpg|JPG|jpeg|JPEG)$/,
+            ".jpg"
+          );
+
           return (
             <Card
               key={repo.id}
