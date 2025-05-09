@@ -12,14 +12,14 @@ type CardProps = {
 };
 
 function Card({ image, nameProject, link }: CardProps) {
-  const [imgSrc, setImgSrc] = useState(image || "/placeholder.svg");
+  const [imgSrc, setImgSrc] = useState(image || "/generic.jpg");
 
   return (
     <div className="flex flex-col h-full overflow-hidden bg-white rounded-lg hover:-translate-y-1 transform transition-all duration-300 ease-in-out hover:scale-110">
       <div className="aspect-video w-full">
         <Image
-          src={imgSrc || "/placeholder.svg"}
-          onError={() => setImgSrc("/placeholder.svg")}
+          src={imgSrc || "/generic.jpg"}
+          onError={() => setImgSrc("/generic.jpg")}
           className="w-full h-full object-cover"
           alt={`screenshot do projeto ${nameProject}`}
           width={500}
